@@ -64,6 +64,7 @@ This repo does not include image data. To set it up:
 
 1. Create an `assets/` folder in the project root
 2. Add your own images, or download [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k) and copy a subset of images + `captions.txt` into the project root
+3. for a start i have added my personal dataset combined with captions.
 
 ### 5. Build the search index
 ```bash
