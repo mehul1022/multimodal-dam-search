@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated data (regenerate locally with ingest.py / auto_tag.py)
+embeddings.pkl
+tags.pkl
+
+# Dataset / asset images (too large / not yours to redistribute — see README for setup)
+assets/
+captions.txt
+
+# OS files
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
